@@ -14,7 +14,6 @@
 		95A6374C24436A0F004E78DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6374A24436A0F004E78DD /* Main.storyboard */; };
 		95A6374E24436A11004E78DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A6374D24436A11004E78DD /* Assets.xcassets */; };
 		95A6375124436A11004E78DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A6374F24436A11004E78DD /* LaunchScreen.storyboard */; };
-		95A6375924439217004E78DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95A6375824439216004E78DD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		95A6374D24436A11004E78DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A6375024436A11004E78DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A6375224436A11004E78DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95A6375824439216004E78DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95A6375A2443933C004E78DD /* AD Notification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AD Notification.entitlements"; sourceTree = "<group>"; };
 		EFB921CC416FB78B3F47B8AC /* Pods-ADFirebaseFCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADFirebaseFCM.release.xcconfig"; path = "Target Support Files/Pods-ADFirebaseFCM/Pods-ADFirebaseFCM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +54,6 @@
 		95A6373824436A0F004E78DD = {
 			isa = PBXGroup;
 			children = (
-				95A6375824439216004E78DD /* GoogleService-Info.plist */,
 				95A6374324436A0F004E78DD /* ADFirebaseFCM */,
 				95A6374224436A0F004E78DD /* Products */,
 				E53566672FFF3C058CDAB6FC /* Pods */,
@@ -157,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A6375124436A11004E78DD /* LaunchScreen.storyboard in Resources */,
-				95A6375924439217004E78DD /* GoogleService-Info.plist in Resources */,
 				95A6374E24436A11004E78DD /* Assets.xcassets in Resources */,
 				95A6374C24436A0F004E78DD /* Main.storyboard in Resources */,
 			);
